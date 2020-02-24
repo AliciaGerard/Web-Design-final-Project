@@ -1,0 +1,32 @@
+
+body{
+	 background-image:url('Images/04-dark-starry-night.jpg') ;
+	 background-size: cover;
+}
+h1{
+	text-align: center;
+	color: MediumSpringGreen;
+	margin: 30px;
+	
+}
+h2 {
+	color:white;
+	text-align: center;
+	font-family: "Comic Sans MS", cursive, sans-serif;
+}
+.gallery img{
+		width: 300px;
+		padding: 10px;
+		filter: grayscale(100%);
+	
+}
+.gallery img:hover{
+		filter: grayscale(0%);
+		transform: scale(1.1);
+}
+.Navbar {
+	background-color: white;
+	text-align: center;
+	font-size: 22px;
+}
+	
